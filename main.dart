@@ -1,7 +1,15 @@
-void main(){
-List numbers = [55,66,3,44,890,321,1,5000,43,9];
-print("list = $numbers");
-numbers.sort();
-print("sorting list = $numbers");
-print(numbers.last);
+void main() {
+  List<String> lab_items = [
+    "computer",
+    "table",
+    "chair",
+    "sir",
+    "peon",
+    "books",
+  ];
+  print("first list = $lab_items");
+
+  var Rev = List.of(lab_items.reversed);
+  print("reverse list = $Rev");
+  print("first list again = $lab_items");
 }
